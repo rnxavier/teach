@@ -1,13 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* COLOUR PALETTE .color1 {
+  color: #0099ff;
+}
+.color2 {
+  color: #00c7ff;
+}
+.color3 {
+  color: #00f8ff;
+}
+.color4 {
+  color: #79ffff;
+}
+.color5 {
+  color: #ecffff;
+} */
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #ecffff;
+}
+
+nav {
+  display: flex;
+  height: 130px;
+  background-color: #00c7ff;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 200px;
+  height: 70px;
+  margin-left: 20px;
+  margin-right: 400px;
+}
+
+nav > div > ul {
+  list-style-type: none;
+  display: flex;
+  color: #ecffff;
+  font-size: 22px;
+}
+
+nav > div > ul > a > li {
+  padding: 15px;
+}
+
+nav > div > ul > a:hover {
+  color: #0099ff;
+  cursor: pointer;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 80px;
+  color: #00c7ff;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.main-slogan {
+  color: #00c7ff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about-us-title {
+  color: #00c7ff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.about-us-p {
+  color: black;
+  width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.about-us-btn {
+  border-radius: 20px;
+  background-color: #0099ff;
+  display: flex;
+  color: #ecffff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  bottom: 0px;
+  left: 550px;
+}
+
+.about-us-btn:hover {
+  background-color: #00c7ff;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #00c7ff;
+  width: 100%;
+  text-align: center;
+  color: #ecffff;
+  height: 70px;
+}
+
+.footer-email {
+  position: relative;
+  top: 10px;
+  display: block;
+  margin-bottom: 5px;
 }
